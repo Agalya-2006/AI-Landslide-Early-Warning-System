@@ -106,10 +106,15 @@ Unlike traditional systems, it focuses on **prediction before disaster occurrenc
 
 AI-Landslide-Early-Warning-System/
 │
-├── hardware/          # Sensor & microcontroller code
-├── ai_model/          # AI prediction scripts
-├── diagrams/          # Architecture and flow diagrams
-├── requirements.txt   # Required Python libraries
+
+├──
+hardware/          # Sensor & microcontroller code
+├──
+ai_model/          # AI prediction scripts
+├──
+diagrams/          # Architecture and flow diagrams
+├──
+requirements.txt   # Required Python libraries
 └── README.md
 
 ---
