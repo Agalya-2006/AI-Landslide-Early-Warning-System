@@ -107,6 +107,7 @@ Unlike traditional systems, it focuses on **prediction before disaster occurrenc
 AI-Landslide-Early-Warning-System/
 
 │
+
 ├──
 hardware/          # Sensor & microcontroller code
 
