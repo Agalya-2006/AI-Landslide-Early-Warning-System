@@ -1,36 +1,86 @@
-# AI and IoT-Driven Early Warning System for Landslides and Floods
+AI & IoT-Driven Early Warning System for Landslides and Floods
+Project Overview
 
-##  Project Overview
-Natural disasters such as landslides and floods frequently occur in hilly regions due to heavy rainfall, soil instability, and rising water levels. This project proposes an AI and IoT-based smart early warning system that continuously monitors environmental conditions using multiple sensors and predicts potential disasters using machine learning algorithms. The system provides real-time alerts to communities and authorities to enable timely preventive action.
+Natural disasters such as landslides and floods frequently occur in hilly regions due to heavy rainfall, soil instability, and rising water levels.
 
-##  Features
-- Real-time environmental monitoring using IoT sensors
-- AI-based disaster prediction and risk analysis
-- Automatic early warning alerts (Mobile / SMS / Alarm)
-- Cloud-based data storage and visualization dashboard
-- Low-cost and scalable deployment for remote areas
-- Historical data analysis for better disaster planning
+This project proposes an AI and IoT-based smart early warning system that continuously monitors environmental conditions using multiple sensors and predicts potential disasters using machine learning algorithms.
 
-##  Technology Stack
-- ESP32 / Arduino Microcontroller
-- IoT Sensors (Soil Moisture, Rainfall, Water Level, Vibration)
-- Python Programming
-- Machine Learning Algorithms
-- Cloud Platform (Firebase / AWS)
-- Mobile Application / Web Dashboard
+The system provides real-time alerts to communities and authorities to enable timely preventive action.
 
-##  Objective
-To minimize loss of human life and infrastructure damage by providing early warnings before landslides and floods occur, especially in vulnerable hilly regions.
+Problem Statement
 
-##  Innovation
-The system combines multi-sensor IoT data with AI-based predictive analytics to provide accurate and timely disaster warnings, which is more effective than traditional monitoring methods.
+Traditional disaster monitoring systems:
 
-##  Team Members
-- Agalya M 
-- Nandhini M
-- Ponsubika S
+Depend mainly on rainfall data
 
-##  Future Scope
-- Integration with government disaster management systems
-- Solar-powered autonomous sensor nodes
-- Deployment across multiple high-risk regions
+Provide alerts after visible warning signs
+
+Require expensive infrastructure
+
+There is a need for a low-cost, real-time predictive early warning system.
+
+Features
+
+Real-time environmental monitoring
+
+AI-based disaster prediction
+
+Multi-sensor data analysis
+
+Automatic early warning alerts (Mobile / SMS / Alarm)
+
+Cloud-based data storage
+
+Historical data analysis
+
+Technology Stack
+
+Hardware:
+
+ESP32 / Arduino
+
+Soil Moisture Sensor
+
+Rainfall Sensor
+
+Water Level Sensor
+
+Vibration Sensor
+
+Software:
+
+Python
+
+Machine Learning Algorithms
+
+Firebase / AWS
+
+Mobile Application
+
+System Working
+
+Sensors collect environmental data.
+
+Microcontroller processes data.
+
+Data is sent to cloud server.
+
+AI model predicts risk level.
+
+Alerts are sent if risk exceeds threshold.
+
+Repository Structure
+
+AI-Landslide-Early-Warning-System/
+
+hardware/
+ai_model/
+diagrams/
+requirements.txt
+README.md
+
+Team Members
+
+Agalya M
+Nandhini M
+Ponsubika Sregions
